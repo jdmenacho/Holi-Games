@@ -1,0 +1,1 @@
+<li><a href="../resgistros/registrar_usuario.php">Registrate</a></li>

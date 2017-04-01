@@ -1,0 +1,68 @@
+
+
+.casilla { 
+
+	float: left;     
+	left: 40px;     
+	top:40px;     
+	width: 40px;     
+	height: 40px;     
+	font-size: 25px;     
+	line-height: 40px; 
+	text-align: center;
+}
+
+/* ----- ESTILOS PARA SOPA DE LETRAS JQUERY ----- */
+
+.casillaselected {
+	background-color: #0071BC;
+	color: #fbfbfb;
+}
+
+.palabraselected {
+	background-color: #0071BC;
+	color: #fbfbfb;
+}
+
+.palabraacertada {
+	background-color: #93278F;
+	color: #fbfbfb;
+
+}
+
+.palabratachada {
+	text-decoration:line-through;
+	color: #3FA9F5;
+}
+
+.palabrasLista {
+	float: left;
+	background-image: url("../img/fondolista.jpg");
+	background-size: cover;
+	margin-left: 20px;
+	-webkit-box-shadow: 10px 10px 36px -8px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 36px -8px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 36px -8px rgba(0,0,0,0.75);	
+}
+
+.tituloLista {
+	font-size: 25px;
+	font-weight: bold;
+	color: #93278F;
+	margin-bottom: 50px;
+	text-align: center;
+	
+}
+
+.listaPalabras {
+	font-size: 22px;
+	list-style:none;
+	text-transform: uppercase;
+	line-height: 200%;
+	padding-bottom: 1%;
+}
+
+.sopa-container {
+	border: dashed 1px;
+	padding: 2%;
+}
